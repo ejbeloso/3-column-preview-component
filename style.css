@@ -1,0 +1,123 @@
+body {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.img,
+.big-heading,
+.sub-heading,
+.btn {
+  margin: 20px 10px 20px;
+}
+.row {
+  width: 60%;
+  margin: 10% auto;
+}
+
+.big-heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+
+.sub-heading {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.btn {
+  border-radius: 30px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/* sedan section */
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  padding: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.sedan-btn {
+  color: hsl(31, 77%, 52%);
+  background-color: white;
+}
+
+.sedan-btn:hover {
+  color: white;
+  background-color: hsl(31, 77%, 52%);
+}
+
+/* suv section */
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 30px;
+  line-height: 1.8;
+}
+
+.suv-btn {
+  color: hsl(184, 100%, 22%);
+  background-color: white;
+}
+
+.suv-btn:hover {
+  color: white;
+  background-color: hsl(184, 100%, 22%);
+}
+/* laxury section */
+
+.laxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.laxury-btn {
+  color: hsl(179, 100%, 13%);
+  background-color: white;
+}
+
+.laxury-btn:hover {
+  color: white;
+  background-color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 991px) {
+  .sedan {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .suv {
+    border-top-right-radius: 10px;
+  }
+  .laxury {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 567px) {
+  .sedan {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .suv {
+    border-top-right-radius: 0;
+  }
+  .laxury {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    text-align: left;
+  }
+}
